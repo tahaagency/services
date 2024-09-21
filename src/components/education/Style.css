@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card_heading{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    top: -270px;
+}
+.additional_experiense{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: -260px;
+    padding: 0 10px;
+    gap: 20px;
+}
+.additional_experiense .card_1{
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: #ffffff;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px;
+}
+.additional_experiense .card_1 .card_1_left h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.additional_experiense .card_1 .card_1_right{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: right;
+}
+@media (max-width: 768px){
+    .card_heading{
+        font-size: 15px;
+        top: -184px;
+    }
+    .additional_experiense {
+        top: -195px;
+        left: 0px;
+        gap: 15px;
+    }
+    .additional_experiense .card_1 {
+        width: 100%;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .additional_experiense .card_1 .card_1_left h3{
+        font-size: 16px;
+    }
+    .additional_experiense .card_1 .card_1_right span{
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+    .additional_experiense {
+        gap: 10px;
+    }
+    .additional_experiense .card_1 .card_1_left h3 {
+        font-size: 15px;
+    }
+
+    .additional_experiense .card_1 .card_1_right span {
+        font-size: 13px;
+    }
+}

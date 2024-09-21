@@ -1,0 +1,38 @@
+.content_expertise{
+    height: 6vh;
+    width: 100%;
+    position: relative;
+    top: 18rem;
+    display: flex;
+}
+.content_expertise .card_expertise{
+    margin-top: -25rem;
+    margin-left: 10px;
+    padding: 10px 20px;
+    background: #c9c6c67c;
+    width: fit-content;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 19px;
+    height: 40px;
+}
+@media (max-width: 750px){
+    .content_expertise{
+        height: 6vh;
+        width: 100%;
+        position: relative;
+        top: -16rem;
+        display: flex;
+    }
+    .content_expertise .card_expertise{
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 10px 20px;
+        background: #c9c6c67c;
+        width: fit-content;
+        border-radius: 30px;
+        font-weight: 500;
+        font-size: 19px;
+        height: 40px;
+    }
+}

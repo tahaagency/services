@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.port_main{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.port_main .port_pro_container{
+    height: 76vh;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -90px;
+    left: 20px;
+    /* background: rgba(153, 153, 153, 0.291); */
+    background: #000;
+    border-radius: 20px;
+}
+.port_main .port_pro_container .port_pro_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.expertise_content{
+    width: 100%;
+}
+.expertise_content .expertise_card span{
+    position: relative;
+    top: -9rem;
+    left: 5rem;
+    background: #d0d0d080;
+    color: #424242;
+    height: 35px;
+    width: fit-content;
+    padding: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.expertise_content h1{
+    position: absolute;
+    top:  27rem;
+    left: 5rem;
+    padding: 0px 20px;
+    font-size: 37px;
+}
+.port_main .port_pro_container .port_pro_content h1{
+    font-size: 60px;
+    font-family: "Dancing Script", cursive;
+    padding: 5px 0;
+    color: #fff;
+}
+.port_main .port_pro_container .port_pro_content .port_pro_content_paragraph{
+    padding: 6px;
+    text-align: center;
+    width: 50%;
+}
+.port_main .port_pro_container .port_pro_content .port_pro_content_paragraph p{
+    color: #fff;
+}
+.port_main .port_pro_container .pro_image{
+    position: absolute;
+    top: 340px;
+}
+.port_main .port_pro_container .pro_image .pro_image_border {
+    height: 210px;
+    width: 210px;
+    border-radius: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.port_main .port_pro_container .pro_image .pro_image_border .profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+@media (max-width: 750px) {
+    .port_main .port_pro_container{
+        height: 40vh;
+        width: 93%;
+        top: 80px;
+        border-radius: 30px;
+        margin-left: -10px;
+    }
+    .port_main .port_pro_container .port_pro_content{
+        padding: 5px;
+        margin-bottom: 130px;
+    }
+    .port_main .port_pro_container .port_pro_content h1{
+        font-size: 35px;
+        font-weight: 800;
+    }
+    .expertise_content h1{
+        position: absolute;
+        top:  28rem;
+        left: 1rem;
+        padding: 0px 7px;
+    }
+    .expertise_content .expertise_card span{
+        position: relative;
+        top: -16rem;
+        left: 1rem;
+    }
+    .port_main .port_pro_container .port_pro_content .port_pro_content_paragraph{
+        padding: 6px;
+        text-align: center;
+        width: 100%;
+    }
+    .port_main .port_pro_container .pro_image .pro_image_border {
+        height: 160px;
+        width: 160px;
+    }
+    .port_main .port_pro_container .pro_image .pro_image_border .profile{
+        width: 150px;
+        height: 150px;
+    }
+    .port_main .port_pro_container .pro_image{
+        top: 170px;
+    }
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+}
+.bg_home{
+    background: rgba(182, 182, 182, 0.291);
+    height: 76vh;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home .bg_home .home_top{
+    margin-top: 100px;
+    position: relative;
+}
+.home .bg_home .home_top .profile_border{
+    background: #fff;
+    height: 160px;
+    width: 160px;
+    border-radius: 100px;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .bg_home .home_top .profile_border .profile_image{
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+.home .bg_home .home_bottom h1{
+    width: 340px;
+    text-align: center;
+    font-weight: 800;
+}
+.home .bg_home .home_btn{
+    margin-top: 20px;
+}
+.cards_by_blog{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.read_blogs{
+    font-size: 24px;
+    padding: 10px 0;
+    color: #444;
+}
+.card_inner_blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+@media (max-width: 750px) {
+    .bg_home{
+        height: 70vh;
+    }
+}
+
+
